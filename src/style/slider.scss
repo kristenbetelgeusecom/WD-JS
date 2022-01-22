@@ -1,0 +1,32 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.slider-container {
+  overflow: hidden;
+}
+.slider-track {
+  display: flex;
+  transition: 0.2s;
+}
+.slider-item {
+  background-size: cover;
+  height: 100px;
+}
+.slider-item:nth-child(3n + 1) {
+  background-image: url(/src/img/oranzhevyy_goluboy_zelenyy_forma_91_1920x1080.jpeg);
+}
+.slider-item:nth-child(3n + 2) {
+  background-image: url(/src/img/raduzhnyy_polosa_raznocvetnyy_siniy_93_1920x1080.jpeg);
+}
+.slider-item:nth-child(3n + 3) {
+  background-image: url(/src/img/zdanie_fasad_arhitektura_244228_1920x1080.jpeg);
+}
+.slider-buttons {
+  text-align: center;
+}
+.btn-prev,
+.btn-next {
+  background-color: white;
+  border: none;
+}
